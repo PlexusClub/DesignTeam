@@ -5,7 +5,7 @@
         "name": "Dimple Yadav",
         "role": "Design Lead",
         "bio": "Enjoys designing engaging visuals, coding intuitive interfaces.",
-        "image": "/resources/members/dimple.png",
+        "image": "./resources/members/dimple.png",
         "social": {
           "instagram": "https://www.instagram.com/itss_dimpleyadav/",
           "github": "https://github.com/dimpleyadav4",
@@ -16,7 +16,7 @@
         "name": "Harsh RB",
         "role": "Design Lead",
         "bio": "Passionate about blending creativity with technology.",
-        "image": "/resources/members/harsh.png",
+        "image": "./resources/members/harsh.png",
         "social": {
           "instagram": "https://www.instagram.com/harshrb55/",
           "github": "https://github.com/Harshrb2424",
@@ -31,7 +31,7 @@
         "name": "Purushottam Rajpurohit",
         "role": "Member",
         "bio": "Shy yet talkative. Quiet yet outspoken. Calm yet feisty. Stubborn yet apologetic.",
-        "image": "/resources/members/purushottam.jpg",
+        "image": "./resources/members/purushottam.jpg",
         "social": {
           "instagram": "https://www.instagram.com/mr_purohit2256/",
           "github": "https://github.com/purushottam2256",
@@ -42,7 +42,7 @@
         "name": "Kolagotla Venkata Guru Malasri",
         "role": "Member",
         "bio": "Sensitive soul with limitless imagination",
-        "image": "/resources/members/malasri.jpg",
+        "image": "./resources/members/malasri.jpg",
         "social": {
           "instagram": "https://www.instagram.com/malasri_1705/",
           "linkedin": "https://www.linkedin.com/in/malasri-kolagotla-838a70382/"
