@@ -1,6 +1,6 @@
 async function loadData() {
   try {
-    const response = await fetch("/resources/data.json");
+    const response = await fetch("./resources/data.json");
     const plexusData = await response.json();
 
     renderTeam(plexusData.team);
