@@ -1,0 +1,155 @@
+{
+  "team": {
+    "heads": [
+      {
+        "name": "Dimple Yadav",
+        "role": "Design Lead",
+        "bio": "Enjoys designing engaging visuals, coding intuitive interfaces.",
+        "image": "/resources/members/dimple.png",
+        "social": {
+          "instagram": "https://www.instagram.com/itss_dimpleyadav/",
+          "github": "https://github.com/dimpleyadav4",
+          "linkedin": "https://www.linkedin.com/in/dimple-yadav-29969a2aa/"
+        }
+      },
+      {
+        "name": "Harsh RB",
+        "role": "Design Lead",
+        "bio": "Passionate about blending creativity with technology.",
+        "image": "/resources/members/harsh.png",
+        "social": {
+          "instagram": "https://www.instagram.com/harshrb55/",
+          "github": "https://github.com/Harshrb2424",
+          "twitter": "https://x.com/KN83D",
+          "behance": "https://www.behance.net/harshrb",
+          "linkedin": "https://www.linkedin.com/in/harshrb05/"
+        }
+      }
+    ],
+    "members": [
+      {
+        "name": "Purushottam Rajpurohit",
+        "role": "Member",
+        "bio": "Shy yet talkative. Quiet yet outspoken. Calm yet feisty. Stubborn yet apologetic.",
+        "image": "/resources/members/purushottam.jpg",
+        "social": {
+          "instagram": "https://www.instagram.com/mr_purohit2256/",
+          "github": "https://github.com/purushottam2256",
+          "linkedin": "https://www.linkedin.com/in/purushottam-purohit/"
+        }
+      },
+      {
+        "name": "Kolagotla Venkata Guru Malasri",
+        "role": "Member",
+        "bio": "Sensitive soul with limitless imagination",
+        "image": "/resources/members/malasri.jpg",
+        "social": {
+          "instagram": "https://www.instagram.com/malasri_1705/",
+          "linkedin": "https://www.linkedin.com/in/malasri-kolagotla-838a70382/"
+        }
+      }
+    ]
+  },
+  "roles": [
+    {
+      "title": "Graphic Designers",
+      "icon": "fas fa-paint-brush",
+      "responsibilities": [
+        "Visual Content Creation: Design posters, banners, and flyers that align with event themes and organizational branding.",
+        "Brand Consistency: Ensure all designs adhere to the organization's visual identity guidelines.",
+        "Concept Development: Brainstorm and develop creative concepts for various initiatives.",
+        "Typography & Layout: Create visually balanced compositions with effective typography."
+      ],
+      "color": "text-indigo-400"
+    },
+    {
+      "title": "Multimedia Producers",
+      "icon": "fas fa-video",
+      "responsibilities": [
+        "Reel and Video Production: Create engaging video content for event promotions and recaps.",
+        "Animation: Develop animations or motion graphics to enhance visual storytelling.",
+        "Audio-Visual Integration: Combine visual elements with sound design for immersive experiences.",
+        "Editing: Post-production editing to polish final video outputs."
+      ],
+      "color": "text-purple-400"
+    },
+    {
+      "title": "Coordination",
+      "icon": "fas fa-users",
+      "responsibilities": [
+        "Interdepartmental Coordination: Work closely with the Social Media Team and Event Organizers to understand design requirements.",
+        "Timely Delivery: Ensure all visual content is delivered according to project timelines.",
+        "Feedback Integration: Incorporate feedback from various stakeholders to refine designs.",
+        "Asset Management: Organize and maintain design files and resources."
+      ],
+      "color": "text-pink-400"
+    },
+    {
+      "title": "Innovation",
+      "icon": "fas fa-lightbulb",
+      "responsibilities": [
+        "Trend Research: Stay updated with the latest design trends and technologies.",
+        "Creative Experimentation: Explore new techniques and styles to push creative boundaries.",
+        "Tool Mastery: Continuously improve skills in design software and tools.",
+        "Workshops: Conduct skill-sharing sessions to elevate the entire team's capabilities."
+      ],
+      "color": "text-blue-400"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "New Members Recruitment Poster",
+      "description": "Poster design created to attract and onboard new members into the club.",
+      "image": "./resources/gallery/new-members-recruitment-poster.png",
+      "type": "poster",
+      "link": "https://www.instagram.com/p/DNaXY_SS4lw/"
+    },
+    {
+      "title": "Social Media Posters",
+      "description": "Designed a complete set of social media posters for club members including President, Vice President, Association Members, Club Heads, Coordinators, and General Members.",
+      "image": "./resources/gallery/social-media-posters.png",
+      "type": "social",
+      "link": "https://www.instagram.com/plexus.aiml/"
+    },
+    {
+      "title": "VERBO FIESTA Event Poster",
+      "description": "Poster for VERBO FIESTA — an exciting verbal arena testing public speaking, debating, and creative thinking skills.",
+      "image": "https://plexusclub.github.io/events/images/verbofita.png",
+      "type": "event",
+      "link": "https://plexusclub.github.io/events/"
+    },
+    {
+      "title": "Code-Con Event Poster",
+      "description": "Poster for Code-Con: The Ultimate Tech Challenge — featuring rounds from trivia to high-stakes coding.",
+      "image": "https://plexusclub.github.io/events/images/codecon.png",
+      "type": "event",
+      "link": "https://plexusclub.github.io/events/"
+    },
+    {
+      "title": "Code-Con Competition App",
+      "description": "A competition app developed for the Code-Con event to streamline registration, rounds, and live updates.",
+      "image": "https://harshrb2424.github.io/profile/resources/images/plexus.png",
+      "type": "app"
+    },
+    {
+      "title": "Plexus Web Page",
+      "description": "Designed and maintained the Plexus events page to showcase upcoming and past events.",
+      "image": "./resources/gallery/web-page.png",
+      "type": "web",
+      "link": "https://plexusclub.github.io"
+    },
+    {
+      "title": "Plexus Reformation Day Posters",
+      "description": "Posters designed to commemorate and promote Plexus Reformation Day.",
+      "image": "./resources/gallery/reformation-day-posters.png",
+      "type": "poster",
+      "link": "https://drive.google.com/drive/folders/1styxlA0IMQQeP0YwWfaZkKMzZou1r7kd?usp=drive_link"
+    },
+    {
+      "title": "Plexus Logo Update",
+      "description": "Updated and refined the Plexus Club logo for consistency and modern design aesthetics.",
+      "image": "./resources/gallery/plexus-pfp.png",
+      "type": "branding"
+    }
+  ]
+}
