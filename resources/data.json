@@ -16,7 +16,7 @@
         "name": "Harsh RB",
         "role": "Design Lead",
         "bio": "Passionate about blending creativity with technology.",
-        "image": "./resources/members/harsh.png",
+        "image": "./resources/members/harsh.jpg",
         "social": {
           "instagram": "https://www.instagram.com/harshrb55/",
           "github": "https://github.com/Harshrb2424",
@@ -27,6 +27,16 @@
       }
     ],
     "members": [
+      {
+        "name": "Reddy Sruthi",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/sruthi.jpg",
+        "social": {
+          "github": "https://github.com/ReddySruthi04",
+          "linkedin": "https://www.linkedin.com/in/reddy-sruthi/"
+        }
+      },
       {
         "name": "Purushottam Rajpurohit",
         "role": "Member",
@@ -39,13 +49,48 @@
         }
       },
       {
-        "name": "Kolagotla Venkata Guru Malasri",
+        "name": "Nidhi",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/nidhi.jpg",
+        "social": {}
+      },
+      {
+        "name": "Rakshitha Kandula",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/rakshitha.jpg",
+        "social": {}
+      },
+      {
+        "name": "Malasri Kolagotla",
         "role": "Member",
         "bio": "Sensitive soul with limitless imagination",
         "image": "./resources/members/malasri.jpg",
         "social": {
           "instagram": "https://www.instagram.com/malasri_1705/",
           "linkedin": "https://www.linkedin.com/in/malasri-kolagotla-838a70382/"
+        }
+      },
+      {
+        "name": "Varikuppala Hymavathi",
+        "role": "Member",
+        "bio": "Passionate to be a creative, thoughtfull and Impactable",
+        "image": "./resources/members/hymavathi.jpg",
+        "social": {
+          "instagram": "https://www.instagram.com/hyma9676/",
+          "linkedin": "https://www.linkedin.com/in/varikuppala-hymavathi-43a58b37a/"
+        }
+      },
+      {
+        "name": "Shikhara",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/shikhara.jpeg",
+        "social": {
+          "instagram": "https://www.instagram.com/shikhara_1011/",
+          "linkedin": "https://www.linkedin.com/in/shikhara-keshaboina-8a2400390/",
+          "behance": "https://www.behance.net/shikharkeshabo1"
         }
       }
     ]
@@ -101,55 +146,55 @@
       "title": "New Members Recruitment Poster",
       "description": "Poster design created to attract and onboard new members into the club.",
       "image": "./resources/gallery/new-members-recruitment-poster.png",
-      "type": "poster",
+      "type": "Poster",
       "link": "https://www.instagram.com/p/DNaXY_SS4lw/"
     },
     {
       "title": "Social Media Posters",
       "description": "Designed a complete set of social media posters for club members including President, Vice President, Association Members, Club Heads, Coordinators, and General Members.",
       "image": "./resources/gallery/social-media-posters.png",
-      "type": "social",
+      "type": "Social",
       "link": "https://www.instagram.com/plexus.aiml/"
     },
     {
       "title": "VERBO FIESTA Event Poster",
       "description": "Poster for VERBO FIESTA — an exciting verbal arena testing public speaking, debating, and creative thinking skills.",
       "image": "https://plexusclub.github.io/events/images/verbofita.png",
-      "type": "event",
+      "type": "Event",
       "link": "https://plexusclub.github.io/events/"
     },
     {
       "title": "Code-Con Event Poster",
       "description": "Poster for Code-Con: The Ultimate Tech Challenge — featuring rounds from trivia to high-stakes coding.",
       "image": "https://plexusclub.github.io/events/images/codecon.png",
-      "type": "event",
+      "type": "Event",
       "link": "https://plexusclub.github.io/events/"
     },
     {
       "title": "Code-Con Competition App",
       "description": "A competition app developed for the Code-Con event to streamline registration, rounds, and live updates.",
       "image": "https://harshrb2424.github.io/profile/resources/images/plexus.png",
-      "type": "app"
+      "type": "App"
     },
     {
       "title": "Plexus Web Page",
       "description": "Designed and maintained the Plexus events page to showcase upcoming and past events.",
       "image": "./resources/gallery/web-page.png",
-      "type": "web",
+      "type": "Web",
       "link": "https://plexusclub.github.io"
     },
     {
       "title": "Plexus Reformation Day Posters",
       "description": "Posters designed to commemorate and promote Plexus Reformation Day.",
       "image": "./resources/gallery/reformation-day-posters.png",
-      "type": "poster",
+      "type": "Poster",
       "link": "https://drive.google.com/drive/folders/1styxlA0IMQQeP0YwWfaZkKMzZou1r7kd?usp=drive_link"
     },
     {
       "title": "Plexus Logo Update",
       "description": "Updated and refined the Plexus Club logo for consistency and modern design aesthetics.",
       "image": "./resources/gallery/plexus-pfp.png",
-      "type": "branding"
+      "type": "Branding"
     }
   ]
 }
