@@ -30,7 +30,7 @@
       {
         "name": "Reddy Sruthi",
         "role": "Member",
-        "bio": "",
+        "bio": "Enjoying turning simple ideas into meaningful stories",
         "image": "./resources/members/sruthi.jpg",
         "social": {
           "github": "https://github.com/ReddySruthi04",
@@ -51,16 +51,21 @@
       {
         "name": "Nidhi",
         "role": "Member",
-        "bio": "",
+        "bio": "All about bringing ideas to life, exploring perspectives, and spreading good vibes ",
         "image": "./resources/members/nidhi.jpg",
-        "social": {}
+        "social": {
+          "instagram": "https://www.instagram.com/nidhi_hiran/"
+        }
       },
       {
         "name": "Rakshitha Kandula",
         "role": "Member",
-        "bio": "",
+        "bio": "Calm. Thoughtful. Kind. Positive. Focused. Friendly. Approachable.",
         "image": "./resources/members/rakshitha.jpg",
-        "social": {}
+        "social": {
+          "instagram": "https://www.instagram.com/rakshii_234/",
+          "linkedin": "https://www.linkedin.com/in/rakshitha-kandula-34b00631b"
+        }
       },
       {
         "name": "Malasri Kolagotla",
@@ -85,7 +90,7 @@
       {
         "name": "Shikhara",
         "role": "Member",
-        "bio": "",
+        "bio": "Fueled by pixels, coffee, passion, and doodles — designing visuals that speak.",
         "image": "./resources/members/shikhara.jpeg",
         "social": {
           "instagram": "https://www.instagram.com/shikhara_1011/",
