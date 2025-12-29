@@ -14,38 +14,83 @@ async function loadData() {
   }
 }
 
-// Render team members
-function renderTeam(team) {
-  const teamContainer = document.getElementById("team-container");
-  teamContainer.innerHTML = "";
+function createCard(member) {
+  const tenureBadge = member.tenure 
+    ? `<div class="absolute top-4 right-4 bg-gray-900/90 text-indigo-400 text-xs font-bold px-3 py-1 rounded-full border border-indigo-500/30 backdrop-blur-sm shadow-lg">
+         ${member.tenure}
+       </div>`
+    : '';
 
-  [...team.heads, ...team.members].forEach(member => {
-    teamContainer.innerHTML += `
-      <div class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden card-hover">
-        <div class="relative h-64">
-          <img src="${member.image}" alt="${member.name}" class="w-full h-full object-cover">
-          <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent"></div>
-          <div class="absolute bottom-4 left-4">
-            <h3 class="text-xl font-bold text-white">${member.name}</h3>
-            <p class="text-indigo-300">${member.role}</p>
-          </div>
-        </div>
-        <div class="p-6">
-          <p class="text-gray-300 mb-4">${member.bio}</p>
-          <div class="flex space-x-4">
-            ${member.social.linkedin ? `<a href="${member.social.linkedin}" class="text-gray-400 hover:text-indigo-300 transition"><i class="fab fa-linkedin"></i></a>` : ""}
-            ${member.social.github ? `<a href="${member.social.github}" class="text-gray-400 hover:text-indigo-300 transition"><i class="fab fa-github"></i></a>` : ""}
-            ${member.social.twitter ? `<a href="${member.social.twitter}" class="text-gray-400 hover:text-indigo-300 transition"><i class="fab fa-twitter"></i></a>` : ""}
-            ${member.social.instagram ? `<a href="${member.social.instagram}" class="text-gray-400 hover:text-indigo-300 transition"><i class="fab fa-instagram"></i></a>` : ""}
-            ${member.social.behance ? `<a href="${member.social.behance}" class="text-gray-400 hover:text-indigo-300 transition"><i class="fab fa-behance"></i></a>` : ""}
-          </div>
+  const hasBio = member.bio && member.bio.trim() !== "";
+  const bioHtml = hasBio
+    ? `<p class="text-gray-300 mb-6 text-sm leading-relaxed line-clamp-3">
+         ${member.bio}
+       </p>`
+    : '';
+
+  const socialIconsHtml = `
+    ${member.social?.linkedin ? `<a href="${member.social.linkedin}" target="_blank" class="text-gray-400 hover:text-indigo-300 transition-colors transform hover:-translate-y-0.5"><i class="fab fa-linkedin text-lg"></i></a>` : ""}
+    ${member.social?.github ? `<a href="${member.social.github}" target="_blank" class="text-gray-400 hover:text-indigo-300 transition-colors transform hover:-translate-y-0.5"><i class="fab fa-github text-lg"></i></a>` : ""}
+    ${member.social?.twitter ? `<a href="${member.social.twitter}" target="_blank" class="text-gray-400 hover:text-indigo-300 transition-colors transform hover:-translate-y-0.5"><i class="fab fa-twitter text-lg"></i></a>` : ""}
+    ${member.social?.instagram ? `<a href="${member.social.instagram}" target="_blank" class="text-gray-400 hover:text-pink-400 transition-colors transform hover:-translate-y-0.5"><i class="fab fa-instagram text-lg"></i></a>` : ""}
+    ${member.social?.behance ? `<a href="${member.social.behance}" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors transform hover:-translate-y-0.5"><i class="fab fa-behance text-lg"></i></a>` : ""}
+  `;
+
+  const hasSocial = socialIconsHtml.trim().length > 0;
+  
+  const socialSectionHtml = hasSocial 
+    ? `<div class="flex space-x-4 border-t border-gray-700/50 pt-4 mt-auto">
+         ${socialIconsHtml}
+       </div>` 
+    : '';
+
+  const cardContentHtml = (hasBio || hasSocial)
+    ? `<div class="p-6 flex-grow flex flex-col justify-between">
+         ${bioHtml}
+         ${socialSectionHtml}
+       </div>`
+    : '';
+
+  return `
+    <div class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden card-hover group h-full flex flex-col">
+      <div class="relative h-64 overflow-hidden">
+        <img src="${member.image}" alt="${member.name}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent"></div>
+        
+        ${tenureBadge}
+        
+        <div class="absolute bottom-4 left-4 right-4">
+          <h3 class="text-xl font-bold text-white truncate">${member.name}</h3>
+          <p class="text-indigo-300 text-sm font-medium">${member.role}</p>
         </div>
       </div>
-    `;
-  });
+      
+      ${cardContentHtml}
+    </div>
+  `;
 }
 
-// Render roles
+function renderTeam(teamData) {
+  const teamContainer = document.getElementById("team-container");
+  const alumniContainer = document.getElementById("alumni-container");
+  const alumniSection = document.getElementById("alumni-section");
+
+  const currentTeam = [...teamData.heads, ...teamData.members];
+  
+  if (teamContainer) {
+    teamContainer.innerHTML = currentTeam.map(member => createCard(member)).join('');
+  }
+
+  if (teamData.alumni && teamData.alumni.length > 0) {
+    if (alumniSection) alumniSection.classList.remove("hidden");
+    if (alumniContainer) {
+      alumniContainer.innerHTML = teamData.alumni.map(member => createCard(member)).join('');
+    }
+  } else {
+    if (alumniSection) alumniSection.classList.add("hidden");
+  }
+}
+
 function renderRoles(roles) {
   const rolesContainer = document.getElementById("roles-container");
   rolesContainer.innerHTML = "";

@@ -97,6 +97,42 @@
           "linkedin": "https://www.linkedin.com/in/shikhara-keshaboina-8a2400390/",
           "behance": "https://www.behance.net/shikharkeshabo1"
         }
+      },
+      {
+        "name": "Kevin",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/kevin.png",
+        "social": {
+        }
+      },
+       {
+        "name": "Matthew Sam",
+        "role": "Member",
+        "bio": "",
+        "image": "./resources/members/matthew-sam.png",
+        "social": {
+        }
+      }
+    ],
+    "alumni": [
+      {
+        "name": "Rithvik",
+        "role": "Former Member",
+        "tenure": "2024 - 2025",
+        "bio": "",
+        "image": "./resources/members/rithvik.png",
+        "social": {
+        }
+      },
+      {
+        "name": "Deekshitha",
+        "role": "Former Member",
+        "tenure": "2024 - 2025",
+        "bio": "",
+        "image": "./resources/members/deekshitha.png",
+        "social": {
+        }
       }
     ]
   },
@@ -147,6 +183,20 @@
     }
   ],
   "gallery": [
+    {
+      "title": "AIML Magazine 2025 Vol. 3 Issue 1",
+      "description": "A visual exploration of the future, crafted with a cybernetic aesthetic. We utilized generative design elements, stark data visualizations, and a sleek, modern grid system to reflect the complexity and elegance of modern Artificial Intelligence.",
+      "image": "./resources/gallery/aiml-magazine-cover.png",
+      "type": "Magazine",
+      "link": "https://plexusclub.github.io/magazines"
+    },
+    {
+      "title": "Plexus Magazine 2025",
+      "description": "Our flagship publication designed to weave together diverse ideas. We employed a dynamic layout with vibrant typography and cohesive graphical motifs to represent the interconnected nature of our community's technical and creative endeavors.",
+      "image": "./resources/gallery/plexus-magazine-cover.png",
+      "type": "Magazine",
+      "link": "https://plexusclub.github.io/magazines"
+    },
     {
       "title": "New Members Recruitment Poster",
       "description": "Poster design created to attract and onboard new members into the club.",
