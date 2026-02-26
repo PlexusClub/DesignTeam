@@ -183,6 +183,13 @@
     }
   ],
   "gallery": [
+        {
+      "title": "Figma Workshop",
+      "description": "Designed and conducted a hands-on Figma workshop covering UI fundamentals, auto layout, components, design systems, and rapid prototyping.",
+      "image": "https://portfolio.harshrb.in/Figma Workshop.png",
+      "type": "Workshop",
+      "link": "https://resources.harshrb.in/Figma-Workshop/Workshop-Overview"
+    },
     {
       "title": "AIML Magazine 2025 Vol. 3 Issue 1",
       "description": "A visual exploration of the future, crafted with a cybernetic aesthetic. We utilized generative design elements, stark data visualizations, and a sleek, modern grid system to reflect the complexity and elegance of modern Artificial Intelligence.",
@@ -228,7 +235,7 @@
     {
       "title": "Code-Con Competition App",
       "description": "A competition app developed for the Code-Con event to streamline registration, rounds, and live updates.",
-      "image": "https://harshrb2424.github.io/profile/resources/images/plexus.png",
+      "image": "https://portfolio.harshrb.in/codemarathon.png",
       "type": "App"
     },
     {
